@@ -1,641 +1,626 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title></title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
-    />
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ishan Gupta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Ishan Gupta, ishangupta97, ishan gupta dev, ishan, gupta, react native, guitar, music" />
+	<meta name="keywords" content="Ishan Gupta, ishangupta97, ishan gupta dev, ishan, gupta, react native, guitar, music, html5, css3, mobile first, responsive" />
+	<meta name="author" content="ishangupta.dev" />
 
-    <!-- HOSTED -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="fonts/mdi/css/materialdesignicons.min.css"
-      media="all"
-      rel="stylesheet"
-    />
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <!-- LOCAL -->
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 
-    <!-- HOSTED -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <!-- LOCAL -->
-    <script src="scripts/pt.min.js"></script>
-    <script src="scripts/index.js"></script>
-    <script src="scripts/modal.js"></script>
-  </head>
-  <body>
-    <div class="overflow-wrap">
-      <!-- HOME -->
-      <div class="modal-wrap flex">
-        <div class="mask"></div>
-        <div class="modal" id="modal">
-          <div class="carousel-wrap">
-            <div class="window">
-              <div id="carousel">
-                <div class="slide"></div>
-                <div class="slide"></div>
-                <div class="slide"></div>
-              </div>
-              <i class="mdi mdi-chevron-left" id="prev"></i>
-              <i class="mdi mdi-chevron-right" id="next"></i>
-            </div>
-          </div>
-          <div class="info-box">
-            <div class="title"></div>
-            <div class="tag"></div>
-            <div class="detail"></div>
-            <a href="#" target="_blank"
-              ><div class="button">
-                <i class="mdi mdi-open-in-new"></i>VIEW SITE
-              </div></a
-            >
-          </div>
-          <i class="close mdi mdi-close"></i>
-        </div>
-      </div>
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-      <section id="home" class="flex height-fix">
-        <div id="pt" class="canvas"></div>
-        <div class="flex">
-          <div class="text">
-            Hello, I'm <span class="highlight">Ishan Gupta</span>.
-            <br />
-            I'm a Javascript developer.
-          </div>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-          <div class="button page-link" dest="about">
-            View my work <i class="mdi mdi-arrow-right"></i>
-          </div>
+	</head>
+	<body>
 
-          <nav class="flex">
-            <div class="link-wrap">
-              <div class="active page-link" dest="home">home</div>
-              <div class="page-link" dest="about">about</div>
-              <div class="page-link" dest="portfolio">portfolio</div>
-              <div class="page-link" dest="blog">blog</div>
-              <div class="page-link" dest="contact">contact</div>
-            </div>
-            <i class="mdi mdi-menu"></i>
-          </nav>
-        </div>
-      </section>
+	<div class="fh5co-loader"></div>
 
-      <!-- ABOUT -->
-      <section id="about">
-        <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">
-            ABOUT
-          </div>
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-left"
-            data-delay=".5s"
-          ></div>
+	<div id="page">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/ishan_profile.jpg);"></div>
+							<h1><span>Ishan Gupta</span></h1>
+							<h3><span>JS/React Native Developer / Guitarist</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a target="_blank" href="https://www.twitter.com/ishangupta97"><i class="icon-twitter2"></i></a></li>
+									<li><a target="_blank" href="https://www.facebook.com/ishan97"><i class="icon-facebook2"></i></a></li>
+									<li><a target="_blank" href="https://www.linkedin.com/in/ishan01/"><i class="icon-linkedin2"></i></a></li>
+									<li><a target="_blank" href="https://www.instagram.com/ishan.gupta_/"><i class="icon-instagram"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-          <div class="flex row label-wrap">
-            <div class="flex row-gt-sm">
-              <div class="flex bullet-wrap ">
-                <div class="hex-wrap waypoint" data-animation="flip-in-x">
-                  <div class="hexagon">
-                    <i class="mdi mdi-speedometer"></i>
-                  </div>
-                </div>
-                <div class="waypoint" data-animation="fade-in">
-                  <div class="label bold">Fast</div>
-                  <div>
-                    Fast load times and lag free interaction, my highest
-                    priority.
-                  </div>
-                </div>
-              </div>
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Ishan Gupta</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+49 1517 5352 759</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">ishangupta97@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">Thanks for visiting</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">Berlin, Germany</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>I'm Ishan and I was born in Ambala, Haryana, India. I spent the first 18 years of my life here before I went to the Engineering college. The college life provided directions to my life as I started writing Computer programs and playing Guitar. Turns out, these two are the love of my life now.</p>
+					<p>After college, I worked at multiple startups/ organisations in multiple cities/ countries and kept learning and improving myself. Currently I'm working in Berlin and I love this place. The best part about working in Europe is that I can travel to a new place every other weekend. Some of my other hobbies includes Hiking (I've hiked the everest of Maharashtra, India ;), swimming, adventure sports, reading books, meditating, listening to different genres, driving cars.</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a target="_blank" href="https://www.twitter.com/ishangupta97"><i class="icon-twitter2"></i></a></li>
+							<li><a target="_blank" href="https://www.facebook.com/ishan97"><i class="icon-facebook2"></i></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/ishan01/"><i class="icon-linkedin2"></i></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/ishan.gupta_/"><i class="icon-instagram"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-              <div class="flex bullet-wrap ">
-                <div
-                  class="hex-wrap waypoint"
-                  data-animation="flip-in-x"
-                  data-delay=".2s"
-                >
-                  <div class="hexagon">
-                    <i class="mdi mdi-cellphone-link"></i>
-                  </div>
-                </div>
-                <div class="waypoint" data-animation="fade-in" data-delay=".2s">
-                  <div class="label bold">Responsive</div>
-                  <div>My layouts will work on any device, big or small.</div>
-                </div>
-              </div>
-            </div>
-            <div class="flex row-gt-sm">
-              <div class="flex bullet-wrap ">
-                <div
-                  class="hex-wrap waypoint"
-                  data-animation="flip-in-x"
-                  data-delay=".4s"
-                >
-                  <div class="hexagon">
-                    <i class="mdi mdi-lightbulb-outline"></i>
-                  </div>
-                </div>
-                <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-                  <div class="label bold">Intuitive</div>
-                  <div>Strong preference for easy to use, intuitive UX/UI.</div>
-                </div>
-              </div>
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Looking for a new Placeholder</h3>
+									<span class="company">Your company - October 2020 ----</span>
+								</div>
+								<div class="timeline-body">
+									<p>Looking for a competitive, motivated, enthusiastic and super agile working environment </p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Senior React Native Developer</h3>
+									<span class="company">ProsprAtWork GmbH - October 2019 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>ProsprAtWork is a pre seed stage startup where we created workforce management solutions for blue collar workers. I learnt a lot of whereabouts and problems of an early stage startup</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Software Development Engineer</h3>
+									<span class="company">MPL Gaming - July 2019 - october 2019</span>
+								</div>
+								<div class="timeline-body">
+									<p>MPL Gaming is one of the largest Gaming company in India. I was a part of the payments team which taught me different ways to acquire customers on a consumer facing product</p>
+								</div>
+							</div>
+						</li>
 
-              <div class="flex bullet-wrap ">
-                <div
-                  class="hex-wrap waypoint"
-                  data-animation="flip-in-x"
-                  data-delay=".6s"
-                >
-                  <div class="hexagon">
-                    <i class="mdi mdi-rocket"></i>
-                  </div>
-                </div>
-                <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-                  <div class="label bold">Dynamic</div>
-                  <div>
-                    Websites don't have to be static, I love making pages come
-                    to life.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Software Development Engineer</h3>
+									<span class="company">Valuefy Solutions - June 2018 - July 2019</span>
+								</div>
+								<div class="timeline-body">
+									<p>Valuefy Solutions is a Fintech startup based in Mumbai, India. I was a part of the team Invezta(a daughter company), where I created the mobile app for the customer facing investment platform from scratch</p>
+								</div>
+							</div>
+						</li>
 
-          <div class="skills-wrapper flex row-gt-sm">
-            <div
-              class="flex flex-50-gt-sm waypoint"
-              data-animation="slide-in-left"
-            >
-              <img src="img/me.png" class="me" />
-              <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-              <div class="label bold">Who's this guy?</div>
-              <div>
-                I'm a React Developer for
-                <a
-                  class="highlight"
-                  href="http://www.prospr.work"
-                  target="_blank"
-                  >ProsprAtWork</a
-                >
-                in Berlin, Germany.
-                <br />
-                I have serious passion building products and help making the
-                world a better place
-                <br />
-                <span class="page-link highlight" dest="contact"
-                  >Let's make something special.</span
-                >
-              </div>
-            </div>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Freelance Developer</h3>
+									<span class="company">Moonquik - July 2019</span>
+								</div>
+								<div class="timeline-body">
+									<p>Moonquik is a wedding planner app, based out of Delhi, India. The project task included creating the application for both android & ios in React native</p>
+								</div>
+							</div>
+						</li>
 
-            <div
-              class="flex flex-50-gt-sm waypoint bars-wrap"
-              data-animation="slide-in-right"
-            >
-              <div class="bar flex">
-                <div class="bar fill" style="width:90%">
-                  <div class="tag bold flex">React</div>
-                </div>
-                <span>90%</span>
-              </div>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Intern</h3>
+									<span class="company">Infosys Ltd. - Jan 2018 - May 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>Infosys Ltd. is a IT services company and during the Internship program, we were trained on Python, DBMS and Oracle 12c</p>
+								</div>
+							</div>
+						</li>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width:90%">
-                  <div class="tag bold flex">React Native</div>
-                </div>
-                <span>90%</span>
-              </div>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Android Developer</h3>
+									<span class="company">Bucks - June 2016 - July 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>Bucks is a loyalty application that allows users to connect to their favorite food outlets in a better, faster and easier way under a reward structure</p>
+								</div>
+							</div>
+						</li>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width:80%">
-                  <div class="tag bold flex">Javascript</div>
-                </div>
-                <span>80%</span>
-              </div>
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Projects</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Road Traffic Fines</h3>
+									<span class="company">September 2017</span>
+								</div>
+								<div class="timeline-body">
+									<p>Road traffic fines is an android application and the idea came out a problem I faced once, and later talking to people made me realize that a lot of people go through it. The application has more than 130,000 downloads</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">E-Dabba</h3>
+									<span class="company">Feb 2017 - Mar 2017</span>
+								</div>
+								<div class="timeline-body">
+									<p>E-Dabba is an application that enabled its users to stream audios/ videos offline, hyperlocally with the help of E-Dabba hardware</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Business and Economics</h3>
+									<span class="company">September 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>The application is a go-to resource to understand the basic concepts of Business & Economics</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Free Wallpaper</h3>
+									<span class="company">August 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>This is the first application I ever published on the play store. I learned that you have to put yourself out into the world in order to keep learning</p>
+								</div>
+							</div>
+						</li>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width:40%">
-                  <div class="tag bold flex">Flutter</div>
-                </div>
-                <span>40%</span>
-              </div>
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachelors Degree</h3>
+									<span class="company">UIET, Panjab University, Chandigarh, India - 2014 - 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>Did my major in Information Technology and tried to get the most out of my college life. Learned to play guitar while I was here and that has become one of my most loveliest hobby ;)</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">High School</h3>
+									<span class="company">PKR JAiN Sr. Sec. Public School, Ambala, India - 2012 - 2014</span>
+								</div>
+								<div class="timeline-body">
+									<p>Was dreaming about singing & playing guitars</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width:40%">
-                  <div class="tag bold flex">Dart</div>
-                </div>
-                <span>40%</span>
-              </div>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width:50%">
-                  <div class="tag bold flex">Java</div>
-                </div>
-                <span>50%</span>
-              </div>
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Services</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-mobile2"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Software Development</h3>
+								<p class="services">Loves to create mobile apps using React-Native/ Flutter and Loves Node JS & GQL for backend services</p>
+							</div>
+						</div>
+					</div>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width:40%">
-                  <div class="tag bold flex">Android Native</div>
-                </div>
-                <span>40%</span>
-              </div>
+					<div class="col-md-6 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bug"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Debugger</h3>
+								<p class="services">Loves to Research and debug anything & everything</p>
+							</div>
+						</div>
+					</div>
+				</div>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width:45%">
-                  <div class="tag bold flex">Node.js</div>
-                </div>
-                <span>45%</span>
-              </div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+					</div>
 
-              <div class="bar flex">
-                <div class="bar fill" style="width:60%">
-                  <div class="tag bold flex">UI Design</div>
-                </div>
-                <span>60%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+						<div class="col-md-4 text-center">
 
-      <!-- PORTFOLIO -->
-      <section class="flex" id="portfolio">
-        <div class="header waypoint" data-animation="slide-in-right">
-          PROJECTS
-        </div>
-        <div
-          class="header-bar waypoint"
-          data-animation="slide-in-right"
-          data-delay=".3s"
-        ></div>
+							<div class="feature-left">
+							<span class="icon">
+								<i class="icon-music2"></i>
+							</span>
+								<div class="feature-copy">
+									<h3>Music Gigs</h3>
+									<p>Well, you know it. Guitar, Keyboards & Songs.</p>
+								</div>
+							</div>
 
-        <div class="filter-wrap waypoint" data-animation="fade-in">
-          <div class="flex row">
-            <div class="filter" data-filter="all">ALL</div>
-            <div class="filter" data-filter=".rails">RUBY/RAILS</div>
-            <div class="filter" data-filter=".react">REACT-JS</div>
-            <div class="filter" data-filter=".js">JAVASCRIPT</div>
-          </div>
-          <div class="float-bar">
-            <div class="flex row">
-              <div class="filter" data-filter="all">ALL</div>
-              <div class="filter" data-filter=".rails">RUBY/RAILS</div>
-              <div class="filter" data-filter=".react">REACT-JS</div>
-              <div class="filter" data-filter=".js">JAVASCRIPT</div>
-            </div>
-          </div>
-        </div>
 
-        <div id="gallery" class="container flex row wrap waypoint">
-          <div class="mix react" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">ChowNow Ordering</div>
-                <span class="highlight">React JS / Python</span>
-              </div>
-              <div class="button" id="ordering">LEARN MORE</div>
-            </div>
-          </div>
 
-          <div class="mix react" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">ChowNow Discover</div>
-                <span class="highlight">React JS / Python</span>
-              </div>
-              <div class="button" id="discover">LEARN MORE</div>
-            </div>
-          </div>
+					<div class="row">
+							<div class="col-md-4 text-center">
+							</div>
+						</div>
+				</div>
 
-          <div class="mix react" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">New Relic</div>
-                <span class="highlight">React / Ruby on Rails / AEM</span>
-              </div>
-              <div class="button" id="newrelic">LEARN MORE</div>
-            </div>
-          </div>
 
-          <div class="mix js" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Roambi</div>
-                <span class="highlight">JavaScript</span>
-              </div>
-              <div class="button" id="roambi">LEARN MORE</div>
-            </div>
-          </div>
 
-          <div class="mix rails" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Walker Tracker</div>
-                <span class="highlight">JS / Ruby on Rails</span>
-              </div>
-              <div class="button" id="walker">LEARN MORE</div>
-            </div>
-          </div>
 
-          <div class="mix js" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">MY STAND</div>
-                <span class="highlight">JS / Node.js on Sails</span>
-              </div>
-              <div class="button" id="mystand">LEARN MORE</div>
-            </div>
-          </div>
 
-          <div class="mix js" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">NEVER SURRENDER</div>
-                <span class="highlight">JavaScript</span>
-              </div>
-              <div class="button" id="never">LEARN MORE</div>
-            </div>
-          </div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-          <div class="mix rails" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Powur</div>
-                <span class="highlight">Angular / Ruby on Rails</span>
-              </div>
-              <div class="button" id="powur">LEARN MORE</div>
-            </div>
-          </div>
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="95"><span><strong>React</strong>95%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="95"><span><strong>React Native</strong>95%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="80"><span><strong>Redux/ React Queries</strong>80%</span></div>
+				</div>
 
-          <div class="mix js" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">The Mall</div>
-                <span class="highlight">React.js / Node</span>
-              </div>
-              <div class="button" id="themall">LEARN MORE</div>
-            </div>
-          </div>
-        </div>
-      </section>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Javascript</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="40"><span><strong>Flutter</strong>40%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="40"><span><strong>Android Native</strong>40%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="50"><span><strong>Node JS</strong>50%</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-      <!-- BLOG -->
-      <section id="blog">
-        <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-left"
-            data-delay=".5s"
-          ></div>
+<!--	<div id="fh5co-work" class="fh5co-bg-dark">-->
+<!--		<div class="container">-->
+<!--			<div class="row animate-box">-->
+<!--				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">-->
+<!--					<h2>Work</h2>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			<div class="row">-->
+<!--				<div class="col-md-3 text-center col-padding animate-box">-->
+<!--					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">-->
+<!--						<div class="desc">-->
+<!--							<h3>Project Name</h3>-->
+<!--							<span>Illustration</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-3 text-center col-padding animate-box">-->
+<!--					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">-->
+<!--						<div class="desc">-->
+<!--							<h3>Project Name</h3>-->
+<!--							<span>Brading</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-3 text-center col-padding animate-box">-->
+<!--					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">-->
+<!--						<div class="desc">-->
+<!--							<h3>Project Name</h3>-->
+<!--							<span>Illustration</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-3 text-center col-padding animate-box">-->
+<!--					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">-->
+<!--						<div class="desc">-->
+<!--							<h3>Project Name</h3>-->
+<!--							<span>Design</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-3 text-center col-padding animate-box">-->
+<!--					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">-->
+<!--						<div class="desc">-->
+<!--							<h3>Project Name</h3>-->
+<!--							<span>Website</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-3 text-center col-padding animate-box">-->
+<!--					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">-->
+<!--						<div class="desc">-->
+<!--							<h3>Project Name</h3>-->
+<!--							<span>Illustration</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-3 text-center col-padding animate-box">-->
+<!--					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">-->
+<!--						<div class="desc">-->
+<!--							<h3>Project Name</h3>-->
+<!--							<span>Brading</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-3 text-center col-padding animate-box">-->
+<!--					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">-->
+<!--						<div class="desc">-->
+<!--							<h3>Project Name</h3>-->
+<!--							<span>Illustration</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
 
-          <div class="flex row wrap">
-            <div class="flex row-gt-sm">
-              <a
-                href="http://blog.eyecuelab.com/2016/04/29/breaking-your-coders-block/"
-                target="_blank"
-              >
-                <div class="blog-wrap waypoint" data-animation="fade-in">
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-1"></div>
-                    <div class="label bold">Breaking Your Coder's Block</div>
-                    <div class="date">APRIL 29, 2016</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      At one time or another, as a developer, we've all found
-                      ourselves hopelessly stuck on a coding issue...
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="http://blog.eyecuelab.com/2015/03/19/this-is-your-brain-on-caffeine/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".2s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-2"></div>
-                    <div class="label bold">
-                      !Awake: This is Your Brain on Caffeine
-                    </div>
-                    <div class="date">MARCH 19, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      If there's one thing I can truly claim to be an expert on,
-                      it's staying awake. For five years I struggled to stay
-                      employed...
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="flex row-gt-sm">
-              <a
-                href="http://blog.eyecuelab.com/2015/03/04/getting-a-handle-on-handlebars/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".4s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-3"></div>
-                    <div class="label bold">Getting a Handle on Handlebars</div>
-                    <div class="date">MARCH 04, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      Here at EyeCue Lab we render most of our data-laden HTML
-                      pages in Handlebar templates...
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="http://blog.eyecuelab.com/2015/02/23/essential_extensions/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".6s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-4"></div>
-                    <div class="label bold">
-                      5 Extensions for Your Chrome Toolbelt
-                    </div>
-                    <div class="date">FEBRUARY 23, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      If you're not using Google Chrome as a front-end web
-                      developer, you're missing out. Not only is Chrome the...
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+	<div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Blog</h2>
+					<p>I write poetry sometimes, might post them one day. Till then - </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a target="_blank" href="https://www.linkedin.com/pulse/blockchain-new-internet-ishan-gupta/" class="blog-bg" style="background-image: url(images/blockchain.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">June 5th 2017</span>
+							<h3><a target="_blank" href="https://www.linkedin.com/pulse/blockchain-new-internet-ishan-gupta/">Blockchain : The new Internet?</a></h3>
+							<p>Blockchain technology is an ingenious invention. It was created by a person or a group of people known by the name of Satoshi Nakamoto in 2010.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>3</li>
+								<li><i class="icon-eye2"></i>49</li>
+								<li><a target="_blank" href="https://www.linkedin.com/pulse/blockchain-new-internet-ishan-gupta/">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+<!--				<div class="col-md-4">-->
+<!--					<div class="fh5co-blog animate-box">-->
+<!--						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>-->
+<!--						<div class="blog-text">-->
+<!--							<span class="posted_on">Mar. 15th 2016</span>-->
+<!--							<h3><a href="#">Surfing at Philippines</a></h3>-->
+<!--							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+<!--							<ul class="stuff">-->
+<!--								<li><i class="icon-heart2"></i>249</li>-->
+<!--								<li><i class="icon-eye2"></i>308</li>-->
+<!--								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>-->
+<!--							</ul>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="col-md-4">-->
+<!--					<div class="fh5co-blog animate-box">-->
+<!--						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>-->
+<!--						<div class="blog-text">-->
+<!--							<span class="posted_on">Mar. 15th 2016</span>-->
+<!--							<h3><a href="#">Capture Living On Uderwater</a></h3>-->
+<!--							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+<!--							<ul class="stuff">-->
+<!--								<li><i class="icon-heart2"></i>249</li>-->
+<!--								<li><i class="icon-eye2"></i>308</li>-->
+<!--								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>-->
+<!--							</ul>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+			</div>
+		</div>
+	</div>
 
-      <!-- CONTACT -->
-      <section id="contact">
-        <svg
-          preserveAspectRatio="none"
-          viewBox="0 0 100 102"
-          height="75"
-          width="100%"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          class="svgcolor-light"
-        >
-          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-        </svg>
-        <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">
-            CONTACT
-          </div>
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-right"
-            data-delay=".25s"
-          ></div>
-          <div
-            class="highlight waypoint"
-            data-animation="slide-in-right"
-            data-delay=".5s"
-          >
-            Have a question or want to work together?
-          </div>
-          <form
-            class="waypoint"
-            data-animation="pop-in"
-            data-delay=".5s"
-            id="contact-form"
-          >
-            <input placeholder="Name" type="text" name="name" required />
-            <input
-              placeholder="Enter email"
-              type="email"
-              name="email"
-              required
-            />
-            <textarea
-              placeholder="Your Message"
-              type="text"
-              name="message"
-            ></textarea>
-            <div id="success">
-              <div>
-                Your message was sent successfully. Thanks!<span
-                  id="close"
-                  class="mdi mdi-close"
-                ></span>
-              </div>
-            </div>
-            <input class="button" type="submit" id="submit" value="SUBMIT" />
-          </form>
-        </div>
-      </section>
+<!--	<div id="fh5co-started" class="fh5co-bg-dark">-->
+<!--		<div class="overlay"></div>-->
+<!--		<div class="container">-->
+<!--			<div class="row animate-box">-->
+<!--				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">-->
+<!--					<h2>Hire Me!</h2>-->
+<!--					<p>Have a question or want to work together?</p>-->
+<!--					<p><a href="#" class="btn btn-default btn-lg">Contact Me</a></p>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
 
-      <footer>
-        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+<!--	<div id="fh5co-consult">-->
+<!--		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">-->
+<!--			<div class="overlay"></div>-->
+<!--		</div>-->
+<!--		<div class="choose animate-box">-->
+<!--			<h2>Contact</h2>-->
+<!--			<form action="#">-->
+<!--				<div class="row form-group">-->
+<!--					<div class="col-md-6">-->
+<!--						<input type="text" id="fname" class="form-control" placeholder="Your firstname">-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="row form-group">-->
+<!--					<div class="col-md-6">-->
+<!--						<input type="text" id="lname" class="form-control" placeholder="Your lastname">-->
+<!--					</div>-->
+<!--				</div>-->
 
-        <div class="icon-wrap flex row">
-          <a href="https://www.linkedin.com/in/ishan01">
-            <div class="flex icon" id="icon-2">
-              <i class="mdi mdi-linkedin"></i>
-            </div>
-          </a>
-          <a href="https://www.facebook.com/ishan97">
-            <div class="flex icon" id="icon-3">
-              <i class="mdi mdi-facebook"></i>
-            </div>
-          </a>
-          <a href="https://instagram.com/ishan.gupta_/">
-            <div class="flex icon" id="icon-4">
-              <i class="mdi mdi-instagram"></i>
-            </div>
-          </a>
-        </div>
-        <div class="info-box">
-          <div class="footnote">
-            Ishan Gupta <span class="highlight">&copy;2020</span>
-          </div>
-        </div>
-      </footer>
-    </div>
+<!--				<div class="row form-group">-->
+<!--					<div class="col-md-12">-->
+<!--						<input type="text" id="email" class="form-control" placeholder="Your email address">-->
+<!--					</div>-->
+<!--				</div>-->
 
-    <div id="preload">
-      <img src="img/me.png" />
-      <img src="img/filler.jpg" />
-      <img src="img/thumb-1.jpg" />
-      <img src="img/thumb-2.jpg" />
-      <img src="img/thumb-3.jpg" />
-      <img src="img/thumb-4.jpg" />
-      <img src="img/thumb-5.jpg" />
-      <img src="img/thumb-6.jpg" />
-      <img src="img/blog-1.jpg" />
-      <img src="img/blog-2.jpg" />
-      <img src="img/blog-3.jpg" />
-      <img src="img/blog-4.jpg" />
-      <img src="img/slides/discover-0.jpg" />
-      <img src="img/slides/discover-1.jpg" />
-      <img src="img/slides/discover-2.jpg" />
-      <img src="img/slides/ordering-0.jpg" />
-      <img src="img/slides/ordering-1.jpg" />
-      <img src="img/slides/ordering-2.jpg" />
-      <img src="img/slides/newrelic-0.jpg" />
-      <img src="img/slides/newrelic-1.jpg" />
-      <img src="img/slides/newrelic-2.jpg" />
-      <img src="img/slides/mystand-0.jpg" />
-      <img src="img/slides/mystand-1.jpg" />
-      <img src="img/slides/mystand-2.jpg" />
-      <img src="img/slides/never-0.jpg" />
-      <img src="img/slides/never-1.jpg" />
-      <img src="img/slides/never-2.jpg" />
-      <img src="img/slides/powur-0.jpg" />
-      <img src="img/slides/powur-1.jpg" />
-      <img src="img/slides/powur-2.jpg" />
-      <img src="img/slides/roambi-0.jpg" />
-      <img src="img/slides/roambi-1.jpg" />
-      <img src="img/slides/roambi-2.jpg" />
-      <img src="img/slides/themall-0.jpg" />
-      <img src="img/slides/themall-1.jpg" />
-      <img src="img/slides/themall-2.jpg" />
-      <img src="img/slides/walker-0.jpg" />
-      <img src="img/slides/walker-1.jpg" />
-      <img src="img/slides/walker-2.jpg" />
-    </div>
-  </body>
+<!--				<div class="row form-group">-->
+<!--					<div class="col-md-12">-->
+<!--						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">-->
+<!--					</div>-->
+<!--				</div>-->
+
+<!--				<div class="row form-group">-->
+<!--					<div class="col-md-12">-->
+<!--						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="form-group">-->
+<!--					<input type="submit" value="Send Message" class="btn btn-primary">-->
+<!--				</div>-->
+
+<!--			</form>-->
+<!--		</div>-->
+<!--	</div>-->
+
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy; 2020 All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+
+<!--	<script src="js/google_map.js"></script>-->
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
 
-<script src="scripts/canvas.js"></script>
