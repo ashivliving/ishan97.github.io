@@ -986,9 +986,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  padding: 50px 0;
-  float: left;
+  padding: 40px 0;
   width: 100%;
+  background-color: #FF9000;
+  text-align: center;
 }
 #fh5co-footer p:last-child {
   margin-bottom: 0;
@@ -1296,6 +1297,14 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+.footer_text{
+  color: #fff;
+  text-align: center;
+}
+.footer_c{
+  font-size: 30px;
+  padding-bottom: -15px;
 }
 
 /*# sourceMappingURL=style.css.map */
